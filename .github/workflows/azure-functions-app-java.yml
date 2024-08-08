@@ -12,7 +12,7 @@ on:
 # 2. Change these variables for your configuration:
 env:
   AZURE_FUNCTIONAPP_NAME: 'MyAppCapstone8'   # set this to your function app name on Azure
-  POM_XML_DIRECTORY: 'MyAppCapstone8.PublishSettings'                    # set this to the directory which contains pom.xml file
+  POM_XML_DIRECTORY: 'pom.xml'                    # set this to the directory which contains pom.xml file
   JAVA_VERSION: '8'                         # set this to the java version to use (e.g. '8', '11', '17')
 
 jobs:
